@@ -1,5 +1,4 @@
-function setup() {
-  createCanvas(640, 360);
+  size(640, 360);
   background(700);
 
   int gridSize=40;
@@ -13,4 +12,3 @@ function setup() {
     line(x, y, width/2, height/2)
     }
   }
-}
