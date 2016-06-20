@@ -1,11 +1,12 @@
 function setup() {
-  createCanvas(640, 360);
-  background(700);
+  createCanvas(720, 360);
+  background(105);
+  noStroke()
 
-  int gridSize=40;
+  var gridSize=35;
 
-  for (int x = gridSize x <= width - gridSize; x += gridSize) {
-    for (int y = gridSize; y <= height - gridSize; y += gridSize) {
+  for (var x = gridSize x <= width - gridSize; x += gridSize) {
+    for (var y = gridSize; y <= height - gridSize; y += gridSize) {
     noStroke();
     fill(255)
     rect(x-1, y-1, 3, 3)
